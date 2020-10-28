@@ -12,112 +12,187 @@
 <footer></footer>
 <button></button>
 
-<!-- h1.myheading -->
-<h1 class="a-myHeading"></h1>
+<h1 class="myHeading"></h1>
 
-<!-- div.myclass OR .myclass -->
 
-<!-- .class1.class2 -->
+<div class="myClass"></div>
 
-<!-- div#myid or #myid -->
 
-<!-- #myid.myclass -->
+<div class="class1 class2"></div>
+
+
+<div id="myId"></div>
+
+
+<div id="myId" class="class1 class2"></div>
 
 
 <!-- ADDING CONTENT {} -->
 
-<!-- h1{My Title} -->
-
-<!-- h1.red{My Red Title} -->
-
-<!-- p>{Click }+a{here}+{ to continue} -->
-
-<!-- NESTING -->
-
-<!-- div>ul>li -->
-
-<!-- div>ul>li{List Item 1} -->
+<h1>My Title</h1>
 
 
+<h1 class="red">My Red Title</h1>
+
+<p>Click <a href="">here</a> to continue</p>
+
+
+<!-- NESTING > -->
+
+<!--div>ul>li{List Item1}-->
+<div>
+    <ul>
+        <li>List Item 1</li>
+    </ul>
+</div>
 
 
 <!-- MULTIPLICATION * -->
 
-<!-- ul#navigation>li*5>{List Item 1} -->
+<ol id="navigation">
+    <li>Menu 1</li>
+    <li>Menu 1</li>
+    <li>Menu 1</li>
+    <li>Menu 1</li>
+    <li>Menu 1</li>
+</ol>
 
-
+<ul class="myNav">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+</ul>
 
 <!-- SIBLINGS + -->
 
-<!-- div+ul+li -->
+<div></div>
+<ul></ul>
+<li></li>
 
-<!-- h1.title+p.body -->
+<div></div>
+<ul></ul>
+<li></li>
 
-<!-- div>h1.title+p.body -->
+
+<h1 class="title"></h1><p class="body"></p>
+
+<div>
+    <h1 class="title"></h1>
+    <p class="body"></p>
+</div>
 
 
 <!-- GROUPIONG () -->
 
-<!-- div>(header>ul>li*2>a)+footer>p -->
-
+<div>
+    <header>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p>Copyright 2014</p>
+    </footer>
+</div>
 
 <!-- ATTRIBUTES -->
 
-<!-- a[href="http://google.com" target="_blank"] -->
-
-
+<a href="http://google.com" target="_blank"></a>
+<a href="http://google.com" target="_blank"></a>
 
 <!-- FORMS & INPUT -->
 
 <!-- form -->
-
+<form action=""></form>
 <!-- form:get -->
-
+<form action="" method="get"></form>
 <!-- form:post -->
-
+<form action="" method="post"></form>
 <!-- label -->
-
+<label for=""></label>
 <!-- input -->
-
+<input type="email" name="" id="">
 <!-- inp -->
-
+<input type="submit" value="">
 <!-- input:email -->
-
+<input type="email" name="" id="">
 <!-- input:s -->
-
+<input type="submit" value="">
 <!-- select -->
-
+<select name="" id=""></select>
 
 
 <!-- EXTENDED STRUCTURE + -->
 
 <!-- select+ -->
-
+<select name="" id="">
+    <option value=""></option>
+</select>
 <!-- table+ -->
-
+<table>
+    <tr>
+        <td></td>
+    </tr>
+</table>
 <!-- ol+ -->
-
+<ol>
+    <li></li>
+</ol>
 <!-- ul+ -->
+<ul>
+    <li></li>
+</ul>
 
 
-
-
-<!-- CUSTOM ALIASES edit snippets.json file -->
-
-<!-- post -->
 
 <!-- DOCTYPE AND STRUCTURE -->
 
 <!-- ! -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
 
 <!-- html:5 -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
 
-<!-- html:4t -->
+</body>
+</html>
+
 
 <!-- LOREM IPSUM GENERATOR -->
 
 <!-- lorem -->
+lorem
 
 <!-- lorem10 -->
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, pariatur?
 
 <!-- ul.mylist>lorem10.item*4 -->
+<ul class="myList">
+    <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptas.</li>
+    <li class="item">Aliquid cumque dicta in minima modi optio, perferendis quaerat veritatis.</li>
+    <li class="item">A atque cumque eaque numquam quos reiciendis sunt tempora vitae?</li>
+    <li class="item">Amet fugit hic itaque labore mollitia nihil omnis sequi vitae.</li>
+</ul>
