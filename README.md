@@ -4,22 +4,24 @@
 
 Examples:
 
-```HTML
-div.class1.class2
-```
-creates:
+```div.class1.class2```  
+
+creates:  
+
 ```HTML
 <div class="class1 class2"></div>
-```
+```  
 
 ```p>{Click }>a{here}+{ to continue}```
 creates
 ```HTML
 <p>Click <a href="">here</a> to continue</p>
-```
+```  
 
 ```ol#navigation>li{Menu $}*5```
-creates
+
+creates  
+
 ```HTML
 <ol id="navigation">
     <li>Menu 1</li>
@@ -28,6 +30,6 @@ creates
     <li>Menu 4</li>
     <li>Menu 5</li>
 </ol>
-```
+```  
 
 It's really that easy!
