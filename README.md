@@ -1,4 +1,5 @@
 # Emmet
-This is a repo for me learning how to use Emmet. 
 
-The [Emmet plugin](https://github.com/emmetio/emmet) helps increasing productivity. Simply type an abbreviation and press the `tab` key.  
+[Emmet](https://github.com/emmetio/emmet) is a powerful plugin that enables developers to write code much quicker. Simply type an abbriviation in [abbr.html](abbr.html) and press the `tab` key.  
+
+It's really that easy!
