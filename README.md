@@ -2,7 +2,7 @@
 
 [Emmet](https://github.com/emmetio/emmet) is a powerful plugin that enables developers to write code much quicker. Simply type an abbriviation in [abbr.html](abbr.html) and press the `tab` key.  
 
-Examples:
+Examples:  
 
 ```div.class1.class2```  
 
@@ -13,7 +13,9 @@ creates:
 ```  
 
 ```p>{Click }>a{here}+{ to continue}```  
+
 creates  
+
 ```HTML
 <p>Click <a href="">here</a> to continue</p>
 ```  
