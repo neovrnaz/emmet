@@ -9,15 +9,16 @@ div.class1.class2
 ```
 creates:
 ```HTML
-<div class="class1 class2"></div>```
-
-```HTML
-p>{Click }>a{here}+{ to continue}
+<div class="class1 class2"></div>
 ```
-creates
-```<p>Click <a href="">here</a> to continue</p>```
 
-ol#navigation>li{Menu $}*5
+```p>{Click }>a{here}+{ to continue}```
+creates
+```HTML
+<p>Click <a href="">here</a> to continue</p>
+```
+
+```ol#navigation>li{Menu $}*5```
 creates
 ```HTML
 <ol id="navigation">
