@@ -12,8 +12,8 @@ creates:
 <div class="class1 class2"></div>
 ```  
 
-```p>{Click }>a{here}+{ to continue}```
-creates
+```p>{Click }>a{here}+{ to continue}```  
+creates  
 ```HTML
 <p>Click <a href="">here</a> to continue</p>
 ```  
