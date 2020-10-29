@@ -4,16 +4,22 @@
 
 Examples:
 
-```div.class1.class2```
+```HTML
+div.class1.class2
+```
 creates:
-<div class="class1 class2"></div>
+```HTML
+<div class="class1 class2"></div>```
 
+```HTML
 p>{Click }>a{here}+{ to continue}
+```
 creates
-<p>Click <a href="">here</a> to continue</p>
+```<p>Click <a href="">here</a> to continue</p>```
 
 ol#navigation>li{Menu $}*5
 creates
+```HTML
 <ol id="navigation">
     <li>Menu 1</li>
     <li>Menu 2</li>
@@ -21,5 +27,6 @@ creates
     <li>Menu 4</li>
     <li>Menu 5</li>
 </ol>
+```
 
 It's really that easy!
